@@ -1,6 +1,6 @@
 Admob mediation with InMobi
 =================================
-Banner & Interstitial ads for InMobi SDK 5.0.0
+Banner & Interstitial mediation sample apps for InMobi SDK 5.0.0
 
 License
 =======
