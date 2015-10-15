@@ -13,6 +13,9 @@ Installation guide
   - Interstitial: `com.admob.custom.InMobiInterstitial.InMobiInterstitialCustomEvent`
   - Banner: `com.admob.custom.InMobiBanner.InMobiBannerCustomEvent`
 
+##### InMobi Dashboard
+1. Trun Diagnostic mode on in related app panel and put your testing device's GPID for debugging.
+
 ##### Android setting 
 1. Place your mediation ID (e.g. `ca-app-pub-2653148267411761/1329412333`) in  `string.xml`
  
