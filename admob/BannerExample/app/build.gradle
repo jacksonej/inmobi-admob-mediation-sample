@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 22
+    buildToolsVersion "22.0.0"
 
     defaultConfig {
-        applicationId "com.google.android.gms.example.bannerexample"
+        applicationId "com.kakao.talk"
         minSdkVersion 9
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -21,6 +21,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.0.1'
-    compile 'com.google.android.gms:play-services-ads:8.1.0'
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.google.android.gms:play-services:7.0.0'
+    compile files('libs/InMobi-5.0.0-B2-SNAPSHOT.jar')
+    compile files('libs/InMobi-5.0.0.jar')
 }
+
